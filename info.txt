@@ -1,0 +1,3 @@
+Szyfrator strumieniowy
+
+Działanie polega na wykonaniu operacji XOR tekstu i ciągu bitów wygenerowanych generatorem z poprzedzniego zadania.
