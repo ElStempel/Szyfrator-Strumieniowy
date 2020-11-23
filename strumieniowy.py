@@ -1,10 +1,10 @@
-from PyQt5.QtWidgets import *
-from PyQt5.QtGui import *
-from PyQt5.QtCore import *
-
 import sys
 import tkinter
 from tkinter import filedialog
+
+from PyQt5.QtCore import *
+from PyQt5.QtGui import *
+from PyQt5.QtWidgets import *
 
 root = tkinter.Tk()
 root.withdraw()
@@ -128,6 +128,7 @@ class Okno(QMainWindow):
             s2 = s2+s2
             s2 = s2+s2
             s2 = s2+s2
+            print("UWAGA KLUCZ ZA KROTKI, ZOSTANIE POWIELONY")
         # konwertuje string na pary znaków
         # zamiana kadej pary na ascii
         # XOR na ascii
