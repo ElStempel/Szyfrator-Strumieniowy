@@ -123,7 +123,11 @@ class Okno(QMainWindow):
         
     ######FUNKCJE########
     
-    def sxor(self, s1, s2):    
+    def sxor(self, s1, s2):
+        if (len(s1) > len(s2)):
+            s2 = s2+s2
+            s2 = s2+s2
+            s2 = s2+s2
         # konwertuje string na pary znaków
         # zamiana kadej pary na ascii
         # XOR na ascii
