@@ -124,11 +124,11 @@ class Okno(QMainWindow):
     ######FUNKCJE########
     
     def sxor(self, s1, s2):    
-        # convert strings to a list of character pair tuples
-        # go through each tuple, converting them to ASCII code (ord)
-        # perform exclusive or on the ASCII code
-        # then convert the result back to ASCII (chr)
-        # merge the resulting array of characters as a string
+        # konwertuje string na pary znaków
+        # zamiana kadej pary na ascii
+        # XOR na ascii
+        # konwertowanie z powrotem na ascii
+        # konwertowanie ascii z powrotem na string
         return ''.join(chr(ord(a) ^ ord(b)) for a,b in zip(s1,s2))
     
     def encrypt(self):
